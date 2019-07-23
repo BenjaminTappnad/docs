@@ -22,6 +22,7 @@ in more detail below.
 | `readonly`  | Do not allow an editor to change the value of this field. |
 | `index`     | Add a database index for this field, only add if you know what this means. |
 | `class`     | Add a CSS selector to the field element. |
+| `searchable`| By default, only text, textarea, html and markdown type field are searchable. But if you make any custom field type it is nice to be able to search on sometimes, so put this attribute to "true" and search will be also done on the field |
 
 ## Grouping fields in tabs
 
